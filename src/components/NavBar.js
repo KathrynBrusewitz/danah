@@ -14,7 +14,7 @@ const NavBar = styled.div`
 
 const NavTitle = styled.h1`
   font-size: 24px;
-  "& > a": {
+  & > a {
     border-bottom: 2px solid;
   }
 `;
