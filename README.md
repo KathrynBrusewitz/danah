@@ -29,7 +29,11 @@ Wipe out .cache and public directories
 npm run clean
 ```
 
-## Dev Shortcuts
+## 🚀 Deployment
+
+Whenever `main` is updated, the deployment workflow defined in `.github/workflows` is kicked off. It generates the `public` directory and then deploys its contents onto the `gh-pages` branch for simple web hosting. Check out the Actions tab for deployment status.
+
+## 🎓 Dev Shortcuts
 
 - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
