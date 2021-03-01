@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: "danahkowdan",
+    title: `Danah Kowdan`,
+    description: `Personal website of Danah Kowdan`,
+    author: `@kathrynbrusewitz`,
+    siteUrl: `https://dmohamed.com`,
   },
   plugins: [
     "gatsby-plugin-emotion",
@@ -9,7 +12,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/icon.png",
+        icon: "src/images/borderless-dolphin.svg",
       },
     },
   ],
