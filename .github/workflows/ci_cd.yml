@@ -10,18 +10,17 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: 15.x
+    env:
+      NODE_VERSION: 15.x
     steps:
       - name: Checkout main branch
         uses: actions/checkout@v2
         with:
           ref: main
-      - name: Use Node ${{ matrix.node-version }}
+      - name: Use Node.js ${{ env.NODE_VERSION }}
         uses: actions/setup-node@v1
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: ${{ env.NODE_VERSION }}
       - name: Install deps and build
         run: |
           npm ci
