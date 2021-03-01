@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{w2l6:function(e,t,n){"use strict";n.r(t);n("q1tI");var a=n("7oih"),i=n("AeFk");t.default=function(){return Object(i.a)(a.a,null,Object(i.a)("title",null,"Not Found"),Object(i.a)("p",null,"That page doesn't exist"," ",Object(i.a)("span",{role:"img","aria-label":"Pensive emoji"},"😔")))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-6338f12c9fb991f9a1ff.js.map
