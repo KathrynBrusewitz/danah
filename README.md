@@ -4,45 +4,37 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  Website for Danah
 </h1>
+
+Built with Gatsby for static site generation. For a good friend :)
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+Start the development server on http://localhost:8000
+```shell
+npm run develop
+```
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+Compile application for deployment
+```shell
+npm run build
+```
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+Serve production build for testing on http://localhost:9000
+```shell
+npm run serve
+```
 
-2.  **Start developing.**
+Wipe out .cache and public directories
+```shell
+npm run clean
+```
 
-    Navigate into your new site’s directory and start it up.
+## Dev Shortcuts
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+- [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-3.  **Open the code and start customizing!**
+- [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+- [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
