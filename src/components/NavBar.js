@@ -40,6 +40,13 @@ const NavLink = styled(InternalLink)`
   }
 `;
 
+const active = {
+  color: Colors.grey,
+  "&:hover": {
+    color: Colors.grey,
+  },
+};
+
 export default () => {
   return (
     <NavBar>
@@ -47,10 +54,18 @@ export default () => {
         <InternalLink to="/">danah kowdan</InternalLink>
       </NavTitle>
       <Navigation>
-        <NavLink to="/">home</NavLink>
-        <NavLink to="/work">work</NavLink>
-        <NavLink to="/writing">writing</NavLink>
-        <NavLink to="/contact">contact</NavLink>
+        <NavLink to="/" activeStyle={active}>
+          about
+        </NavLink>
+        <NavLink to="/work" activeStyle={active}>
+          work
+        </NavLink>
+        <NavLink to="/writing" activeStyle={active}>
+          writing
+        </NavLink>
+        <NavLink to="/contact" activeStyle={active}>
+          contact
+        </NavLink>
       </Navigation>
     </NavBar>
   );
