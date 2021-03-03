@@ -1,21 +1,28 @@
 import React from "react";
 import Layout from "../components/Layout";
-import { ExternalLink } from "../components/Link";
 import ProfileImage from "../images/danah-profile.jpeg";
 
 const IndexPage = () => {
   return (
     <Layout>
       <title>Danah Kowdan</title>
-      <p>Scientist. Researcher. Artist. Writer.</p>
       <p>
-        Speech therapist graduate at{" "}
-        <ExternalLink href="#">University of Washington</ExternalLink>.
+        I am completing a Speech-Language Pathology M.S. in the MedSLP program
+        (adult track) at the University of Washington. After graduation, I hope
+        to pursue employment in a hospital setting. I am particularly interested
+        in working with multicultural and underserved populations.
       </p>
       <p>
-        Professional on <ExternalLink href="#">LinkedIn</ExternalLink> and
-        occasional <ExternalLink href="#">Instagram</ExternalLink> publisher of
-        hot takes. Frequent tea sipper. The spiciest of meme lords.
+        Currently, I am gaining valuable experience in assessing and treating
+        children and adults with speech, language, and cognitive communication
+        impairments. Through my internship, I have been able to assess adult
+        patients' oropharyngeal swallow function, update diet texture
+        recommendations, train patients in compensatory strategies and evidence
+        based oropharyngeal exercises to improve swallow function.
+      </p>
+      <p>
+        I am constantly inspired by the resilience of adults, and I take pride
+        in supporting their growth and serving them.
       </p>
       <div style={{ textAlign: "center", marginTop: 48 }}>
         <img

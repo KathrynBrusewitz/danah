@@ -22,10 +22,6 @@ const NavTitle = styled.h1`
 const Navigation = styled.nav`
   display: flex;
   flex-flow: row wrap;
-  @media all and (max-width: 600px) {
-    width: 100%;
-    justify-content: space-between;
-  }
 `;
 
 const NavLink = styled(InternalLink)`
@@ -35,9 +31,7 @@ const NavLink = styled(InternalLink)`
     color: ${Colors.red};
     border-bottom: none;
   }
-  @media all and (min-width: 601px) {
-    margin-left: 16px;
-  }
+  margin-left: 16px;
 `;
 
 const active = {
@@ -55,13 +49,7 @@ export default () => {
       </NavTitle>
       <Navigation>
         <NavLink to="/" activeStyle={active}>
-          about
-        </NavLink>
-        <NavLink to="/work" activeStyle={active}>
-          work
-        </NavLink>
-        <NavLink to="/writing" activeStyle={active}>
-          writing
+          bio
         </NavLink>
         <NavLink to="/contact" activeStyle={active}>
           contact
