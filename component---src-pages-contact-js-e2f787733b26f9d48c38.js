@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{"Cuy+":function(a,e,t){"use strict";t.r(e);var n=t("DZdY"),u=(t("q1tI"),t("7oih")),c=t("JB2W"),l=t("AeFk");var o=Object(n.a)("p",{target:"em5zk7h0"})({name:"eqk9nl",styles:'font-size:20px;font-family:"WorkSans-Light"'});e.default=function(){return Object(l.a)(u.a,null,Object(l.a)("title",null,"Contact"),Object(l.a)(o,null,"I can be reached at"," ",Object(l.a)(c.a,{href:"mailto:danahk@uw.edu"},"danahk@uw.edu"),"."))}}}]);
+//# sourceMappingURL=component---src-pages-contact-js-e2f787733b26f9d48c38.js.map
