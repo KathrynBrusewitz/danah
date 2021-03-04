@@ -51,6 +51,9 @@ export default () => {
         <NavLink to="/" activeStyle={active}>
           bio
         </NavLink>
+        <NavLink to="/resume" activeStyle={active}>
+          resume
+        </NavLink>
         <NavLink to="/contact" activeStyle={active}>
           contact
         </NavLink>
