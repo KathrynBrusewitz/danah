@@ -45,7 +45,7 @@ export default () => {
   return (
     <NavBar>
       <NavTitle>
-        <InternalLink to="/">danah kowdan</InternalLink>
+        <InternalLink to="/">Danah Kowdan</InternalLink>
       </NavTitle>
       <Navigation>
         <NavLink to="/" activeStyle={active}>
